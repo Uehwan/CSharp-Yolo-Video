@@ -26,6 +26,7 @@ PM> install-package OpenCvSharp3-AnyCPU
 ```
 
 3. Download pretrained weights and place it in your project directory. For more information, visit [Alturos.Yolo](https://github.com/AlturosDestinations/Alturos.Yolo/blob/master/README.md#pre-trained-dataset)
+
 Model | Processing Resolution | Cfg | Weights | Names |
 --- | --- | --- | --- | --- |
 YOLOv3 | 608x608 | [yolov3.cfg](https://raw.githubusercontent.com/AlexeyAB/darknet/master/cfg/yolov3.cfg) | [yolov3.weights](https://pjreddie.com/media/files/yolov3.weights) | [coco.names](https://raw.githubusercontent.com/AlexeyAB/darknet/master/cfg/coco.names) |
