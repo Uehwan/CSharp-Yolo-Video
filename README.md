@@ -82,6 +82,8 @@ private void VideoObjectDetection()
         // you can set different colors for different classes
         Cv2.Rectangle(image, new OpenCvSharp.Rect(x, y, width, height), Scalar.Green, 3);
       }
+      
+      // display the detection result
       WriteableBitmapConverter.ToWriteableBitmap(image, wb);
       /* WPF component: videoViewer
       <Canvas Name="canvasYoloVideo" Height="608" Width="608">
